@@ -2,7 +2,6 @@ import java.util.Scanner;
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Formatter;
-
 public class mains extends UserMainCode {
 	public static void main(String[] args) throws ParseException {
 		Scanner scan = new Scanner(System.in);
@@ -19,7 +18,6 @@ public class mains extends UserMainCode {
 		scan.close();
 	}
 }
-
 class UserMainCode {
 	static double calculateAverage(HashMap<Integer, Double> map) {
 		double res = 0.0;
